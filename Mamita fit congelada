@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros Digitais para Emagrecer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .book {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .book img {
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .buy-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .buy-button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-link {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Livros Digitais para Emagrecer</h1>
+        <p>Emagreça em menos de 30 dias sem parar de comer o que você gosta</p>
+    </header>
+    <nav>
+        <a href="#about">Sobre</a>
+        <a href="#books">Livros</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>Sobre</h2>
+            <p>Nossos livros digitais fornecem métodos eficazes para emagrecer em menos de 30 dias, sem abrir mão dos seus alimentos favoritos. Impressione a todos e atraia mais homens com nossas dicas e estratégias comprovadas.</p>
+        </section>
+        <section id="books">
+            <h2>Livros Disponíveis</h2>
+            <div class="book">
+                <img src="book-cover.jpg" alt="Capa do Livro">
+                <h3>Emagreça em 30 Dias</h3>
+                <p>Descubra como emagrecer rapidamente sem sacrificar o prazer de comer suas comidas preferidas.</p>
+                <a class="buy-button" href="https://go.hotmart.com/K94374872B">Compre Agora</a>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <p>Para suporte e mais informações, entre em contato conosco:</p>
+            <p>Email: <a class="contact-link" href="mailto:0samuel.a021@gmail.com">0samuel.a021@gmail.com</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Livros Digitais para Emagrecer. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
